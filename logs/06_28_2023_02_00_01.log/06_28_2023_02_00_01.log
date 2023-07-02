@@ -1,0 +1,8 @@
+[ 2023-06-28 02:00:01,952 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-28 02:00:01,962 ] 187 werkzeug - INFO -  * Debugger PIN: 571-670-692
+[ 2023-06-28 02:00:04,422 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 02:00:04] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[ 2023-06-28 02:00:04,515 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 02:00:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-06-28 02:00:04,516 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 02:00:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-06-28 02:00:04,544 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 02:00:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-28 02:00:04,565 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 02:00:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-28 02:02:02,409 ] 187 werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/6th sem LAB MLOPS/MLOps/car_price_detection/app.py', reloading

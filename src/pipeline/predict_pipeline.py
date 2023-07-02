@@ -7,10 +7,10 @@ from src.components.ensemble import Ensemble
 
 
 class PredictPipeline:
-    def _init_(self):
+    def __init__(self):
         pass
 
-    def predict(self,features):
+    def predict(self, features):
         try:
             model = Ensemble(features)
             model.linearRegression()
@@ -19,22 +19,20 @@ class PredictPipeline:
             model.SVC()
             pred = model.bagging()
             return pred
-        
+
         except Exception as e:
-            raise CustomException(e,sys)
+            raise CustomException(e, sys)
 
 
 class CustomData:
-    def _init_(self, Year, Present_Price, 
-                 Kms_riven, Fuel_Type, Seller_Type, Transmission, Owner):
-        
-        self.Year= Year
+    def __init__(self, Year, Present_Price, Kms_riven, Fuel_Type, Seller_Type, Transmission, Owner):
+        self.Year = Year
         self.Present_Price = Present_Price
         self.Kms_riven = Kms_riven
         self.Fuel_Type = Fuel_Type
         self.Seller_Type = Seller_Type
-        self.Transmission= Transmission
-        self.Owner= Owner
+        self.Transmission = Transmission
+        self.Owner = Owner
 
     def get_data_as_data_frame(self):
         try:
@@ -45,7 +43,7 @@ class CustomData:
                 "Fuel_Type": [self.Fuel_Type],
                 "Seller_Type": [self.Seller_Type],
                 "Transmission": [self.Transmission],
-                "Owner":[self.Owner]
+                "Owner": [self.Owner]
             }
 
             return pd.DataFrame(custom_data_input_dict)

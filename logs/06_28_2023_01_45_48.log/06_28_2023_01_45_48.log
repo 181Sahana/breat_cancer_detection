@@ -1,0 +1,12 @@
+[ 2023-06-28 01:45:48,944 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-28 01:45:48,962 ] 187 werkzeug - INFO -  * Debugger PIN: 571-670-692
+[ 2023-06-28 01:45:51,181 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:45:51] "[33mGET /predict_datapoint HTTP/1.1[0m" 404 -
+[ 2023-06-28 01:45:53,760 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:45:53] "GET / HTTP/1.1" 200 -
+[ 2023-06-28 01:51:51,725 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:51:51] "GET / HTTP/1.1" 200 -
+[ 2023-06-28 01:53:10,109 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:53:10] "GET / HTTP/1.1" 200 -
+[ 2023-06-28 01:55:31,585 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:55:31] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[ 2023-06-28 01:55:31,685 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:55:31] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-06-28 01:55:31,691 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:55:31] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-06-28 01:55:31,737 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:55:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-06-28 01:55:31,793 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:55:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-06-28 01:56:20,180 ] 187 werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/6th sem LAB MLOPS/MLOps/car_price_detection/app.py', reloading

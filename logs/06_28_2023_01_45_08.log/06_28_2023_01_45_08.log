@@ -1,0 +1,4 @@
+[ 2023-06-28 01:45:08,713 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-06-28 01:45:08,765 ] 187 werkzeug - INFO -  * Debugger PIN: 571-670-692
+[ 2023-06-28 01:45:25,984 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jun/2023 01:45:25] "[33mGET /predict_datapoint HTTP/1.1[0m" 404 -
+[ 2023-06-28 01:45:45,895 ] 187 werkzeug - INFO -  * Detected change in '/Users/mac/Desktop/6th sem LAB MLOPS/MLOps/car_price_detection/app.py', reloading
